@@ -1,48 +1,31 @@
-# 🚀 Star Wars Starships Explorer
+# 🌌 StarWars Karakter Kartları Uygulaması
 
-Bu proje, [Star Wars API (SWAPI)](https://www.swapi.tech/) üzerinden Star Wars evrenindeki uzay gemilerini keşfetmenizi sağlayan bir React uygulamasıdır.
+Bu proje, **Star Wars** evrenindeki karakterleri API üzerinden çekerek her biri için görsel birer kart oluşturan modern bir web uygulamasıdır. Uygulama, `SWAPI` (Star Wars API) ile entegre çalışır ve kullanıcıya karakter bilgilerini şık bir arayüzle sunar.
 
-## Özellikler ✨
+## 🎯 Proje Amacı
 
-- ⭐ Star Wars uzay gemilerini listeleme
-- 🔍 İsim veya model ile arama ve filtreleme
-- 📄 Detay sayfasında gemi bilgilerini görüntüleme
-- 🖼️ Görsel destekli kartlar
-- 📱 Duyarlı ve modern tasarım
+Amaç, modern JavaScript yöntemleri ve modül yapısı kullanarak dış veri kaynaklarıyla dinamik çalışan görsel bir kullanıcı arayüzü geliştirmektir. Proje, özellikle `fetch`, `async/await`, `try/catch` ve DOM manipülasyonları gibi konularda pratik yapmak için uygundur.
 
-## Kurulum 🛠️
+---
 
-1. Depoyu klonlayın:
+## 🚀 Başlangıç
 
-2. Bağımlılıkları yükleyin:
+Aşağıdaki adımları takip ederek projeyi kendi bilgisayarınızda çalıştırabilirsiniz.
 
-   ```sh
-   npm install
-   ```
+## Proje Dosya yapısı
 
-3. Geliştirme sunucusunu başlatın:
+StarWars/
+│
+├── index.html            → Ana HTML dosyası
+├── package.json          → Proje yapılandırması ve bağımlılıklar
+├── vite.config.js        → Vite yapılandırma dosyası
+├── eslint.config.js      → ESLint ayarları
+├── .gitignore            → Git için hariç tutulan dosyalar
+├── node_modules/         → Yüklenen npm paketleri
+└── src/                  → (Varsa) JS ve CSS dosyalarının yer aldığı klasör
 
-   ```sh
-   npm run dev
-   ```
 
-4. Uygulamayı tarayıcıda açın: [http://localhost:5173](http://localhost:5173)
+### 1. Projeyi Klonla
 
-## Proje Yapısı 📁
-
-- `src/pages/Home.jsx` — Ana sayfa, arama ve listeleme
-- `src/components/StarshipCard.jsx` — Uzay gemisi kartı
-- `src/components/StarshipDetail.jsx` — Detay sayfası
-- `src/assets/` — Görseller
-- `src/styles.css` — Genel stiller
-
-## Kullanılan Teknolojiler 🧑‍💻
-
-- React 19
-- React Router DOM
-- Vite
-- SWAPI (https://swapi.tech/)
-
-## Ekran Görüntüsü 🖼️
-
-![Star Wars Starships](src/assets/starship.jpg)
+```bash
+git clone https://github.com/ekinnn35/StarWars.git
